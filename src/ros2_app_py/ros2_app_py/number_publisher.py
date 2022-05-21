@@ -11,16 +11,24 @@ class NumberPublisherNode(Node):
 
         # Constructor of the rclpy.node Node object [super()--> because it is inherited]
         super().__init__("number_publisher")
+        
+        # You have to declare all parameters first and
+        # then initialiaze i during runtime.
+        self.declare_parameter("number_to_publish", 2)
+        self.declare_parameter("number_publish_frequency", 1)
 
-        self.number_ = 4
+        # Retrive parameter values
+        self.number_ = self.get_parameter("number_to_publish").value
+        self.publish_frequency_ = self.get_parameter(
+            "number_publish_frequency").value
 
         self.pub_ = self.create_publisher(Int64, "number", 10)
-
+        
         '''Unlike ROS1 rospy.rate -> ROS2 does not use rates. Everything is based on timers.
         The timer here is created right inside the node class for the node usng self.
         As ROS2 initializes, the timer automatically starts and keeps spinning
         as long as the ROS2 comms does not shutdown. '''
-        self.number_timer_ = self.create_timer(0.5, self.publish_number)
+        self.number_timer_ = self.create_timer(1.0 / self.publish_frequency_, self.publish_number)
         
         # self --> because our class is now a rclpy.node Node object.
         self.get_logger().info("number_publisher has been started!")

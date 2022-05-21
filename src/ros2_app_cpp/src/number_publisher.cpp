@@ -9,7 +9,17 @@ public:
     // Constructor of this class is itself node object initialization
     NumberPublisherNode(): Node("number_publisher"), number_(2)
     {
-        number_timer_ = this->create_wall_timer(std::chrono::seconds(1), 
+        // Just declare the parameters for this node here and
+        // initialize it at runtime.
+        // Type is automatically captured at runtime.
+        this->declare_parameter("number_to_publish", 2);
+        this->declare_parameter("number_publish_frequency", 1.0);
+
+        // Retrive parameter values
+        number_ = this->get_parameter("number_to_publish").as_int();
+        publish_frequency_ = this->get_parameter("number_publish_frequency").as_double();
+
+        number_timer_ = this->create_wall_timer(std::chrono::milliseconds((int)(1000.0/publish_frequency_)), 
                                                 std::bind(&NumberPublisherNode::publishNumber, this));
 
         number_publisher_ = this->create_publisher<std_msgs::msg::Int64>("number", 10);
@@ -27,6 +37,7 @@ private:
     }
 
     int number_;
+    double publish_frequency_;
 
     // Everyhing in ROS2 is a shared pointer ===>>>
     // Declare the ROS2 timer. 
