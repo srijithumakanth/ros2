@@ -18,7 +18,8 @@ class NumberPublisherNode(Node):
 
         '''Unlike ROS1 rospy.rate -> ROS2 does not use rates. Everything is based on timers.
         The timer here is created right inside the node class for the node usng self.
-        As ROS2 initializes, the timer automatically starts and keeps spinning as long as the ROS2 comms does not shutdown. '''
+        As ROS2 initializes, the timer automatically starts and keeps spinning
+        as long as the ROS2 comms does not shutdown. '''
         self.number_timer_ = self.create_timer(0.5, self.publish_number)
         
         # self --> because our class is now a rclpy.node Node object.
