@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (my_msgs) JobQueued: {'identifier': 'my_msgs', 'dependencies': OrderedDict()}
+[0.000460] (my_msgs) JobStarted: {'identifier': 'my_msgs'}
+[0.008783] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'cmake'}
+[0.009572] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/srijith/Downloads/test_ros2_ws/src/my_msgs', '-DCMAKE_INSTALL_PREFIX=/home/srijith/Downloads/test_ros2_ws/install/my_msgs'], 'cwd': '/home/srijith/Downloads/test_ros2_ws/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'srijith'), ('SSH_AGENT_PID', '1649'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/srijith'), ('OLDPWD', '/home/srijith'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21584'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'srijith'), ('JOURNAL_STREAM', '8:34669'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srijith'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/srijith/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/srijith-VirtualBox:@/tmp/.ICE-unix/1686,unix/srijith-VirtualBox:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '49a674ababa6498cb4b3e67d641743c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:adc4e395-9291-4795-aca0-ace33fb68cf4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srijith/Downloads/test_ros2_ws/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098788] (-) TimerEvent: {}
+[0.102284] (my_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.163343] (my_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.170666] (my_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199815] (-) TimerEvent: {}
+[0.243346] (my_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.245767] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300032] (-) TimerEvent: {}
+[0.315727] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.329079] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.330417] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.333041] (my_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400421] (-) TimerEvent: {}
+[0.416138] (my_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.417091] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500591] (-) TimerEvent: {}
+[0.502996] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.516467] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.517266] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.519651] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.546923] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.547111] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.601737] (-) TimerEvent: {}
+[0.702071] (-) TimerEvent: {}
+[0.758520] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.762042] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.768295] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.802258] (-) TimerEvent: {}
+[0.866568] (my_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.894935] (my_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.902852] (-) TimerEvent: {}
+[0.974471] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.003004] (-) TimerEvent: {}
+[1.020295] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.103329] (-) TimerEvent: {}
+[1.140809] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.203482] (-) TimerEvent: {}
+[1.266025] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.278055] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302396] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.303744] (my_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.303868] (-) TimerEvent: {}
+[1.328529] (my_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.328716] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.328827] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.328893] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.350451] (my_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.404336] (-) TimerEvent: {}
+[1.405685] (my_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.437670] (my_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.440807] (my_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/srijith/Downloads/test_ros2_ws/build/my_msgs\n'}
+[1.448496] (my_msgs) CommandEnded: {'returncode': 0}
+[1.451561] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'build'}
+[1.451647] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/srijith/Downloads/test_ros2_ws/build/my_msgs', '--', '-j8', '-l8'], 'cwd': '/home/srijith/Downloads/test_ros2_ws/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'srijith'), ('SSH_AGENT_PID', '1649'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/srijith'), ('OLDPWD', '/home/srijith'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21584'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'srijith'), ('JOURNAL_STREAM', '8:34669'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srijith'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/srijith/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/srijith-VirtualBox:@/tmp/.ICE-unix/1686,unix/srijith-VirtualBox:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '49a674ababa6498cb4b3e67d641743c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:adc4e395-9291-4795-aca0-ace33fb68cf4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srijith/Downloads/test_ros2_ws/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.491767] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__cpp\x1b[0m\n'}
+[1.491997] (my_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.502539] (my_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.504499] (-) TimerEvent: {}
+[1.604819] (-) TimerEvent: {}
+[1.705282] (-) TimerEvent: {}
+[1.754589] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.767835] (my_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/msg/detail/srijith_custom_string__functions.c.o\x1b[0m\n'}
+[1.780324] (my_msgs) StdoutLine: {'line': b'[  9%] Built target my_msgs__cpp\n'}
+[1.792445] (my_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.792643] (my_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.807640] (-) TimerEvent: {}
+[1.811204] (my_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.821476] (my_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.860389] (my_msgs) StdoutLine: {'line': b'[ 22%] Built target my_msgs__rosidl_generator_c\n'}
+[1.873050] (my_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.873341] (my_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.907833] (-) TimerEvent: {}
+[2.008405] (-) TimerEvent: {}
+[2.047851] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.061437] (my_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/msg/srijith_custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.079395] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.081157] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.092942] (my_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/msg/detail/srijith_custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.096774] (my_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/msg/detail/dds_fastrtps/srijith_custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.108601] (-) TimerEvent: {}
+[2.132462] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.147521] (my_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/msg/srijith_custom_string__type_support.cpp.o\x1b[0m\n'}
+[2.156095] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.170617] (my_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/msg/detail/srijith_custom_string__type_support.c.o\x1b[0m\n'}
+[2.183008] (my_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.209019] (-) TimerEvent: {}
+[2.210687] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.236064] (my_msgs) StdoutLine: {'line': b'[ 51%] Built target my_msgs__rosidl_typesupport_c\n'}
+[2.250084] (my_msgs) StdoutLine: {'line': b'[ 51%] Built target my_msgs__rosidl_typesupport_introspection_c\n'}
+[2.310200] (-) TimerEvent: {}
+[2.396223] (my_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.410615] (-) TimerEvent: {}
+[2.423407] (my_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.439764] (my_msgs) StdoutLine: {'line': b'[ 58%] Built target my_msgs__rosidl_typesupport_cpp\n'}
+[2.488377] (my_msgs) StdoutLine: {'line': b'[ 58%] Built target my_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.510726] (-) TimerEvent: {}
+[2.565498] (my_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.610907] (-) TimerEvent: {}
+[2.654201] (my_msgs) StdoutLine: {'line': b'[ 61%] Built target my_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.664763] (my_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.711174] (-) TimerEvent: {}
+[2.811637] (-) TimerEvent: {}
+[2.863664] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.876933] (my_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/msg/detail/srijith_custom_string__type_support_c.cpp.o\x1b[0m\n'}
+[2.912013] (-) TimerEvent: {}
+[3.012350] (-) TimerEvent: {}
+[3.113204] (-) TimerEvent: {}
+[3.202775] (my_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.213389] (-) TimerEvent: {}
+[3.285524] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.295900] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs\x1b[0m\n'}
+[3.305578] (my_msgs) StdoutLine: {'line': b'[ 70%] Built target my_msgs\n'}
+[3.313750] (-) TimerEvent: {}
+[3.315693] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__py\x1b[0m\n'}
+[3.326323] (my_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.413990] (-) TimerEvent: {}
+[3.514398] (-) TimerEvent: {}
+[3.615623] (-) TimerEvent: {}
+[3.656087] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs__py\n'}
+[3.667879] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__python\x1b[0m\n'}
+[3.687749] (my_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_msgs__python.dir/rosidl_generator_py/my_msgs/msg/_srijith_custom_string_s.c.o\x1b[0m\n'}
+[3.715893] (-) TimerEvent: {}
+[3.772902] (my_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/libmy_msgs__python.so\x1b[0m\n'}
+[3.814670] (my_msgs) StdoutLine: {'line': b'[ 80%] Built target my_msgs__python\n'}
+[3.816078] (-) TimerEvent: {}
+[3.825483] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.826173] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.826859] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.845844] (my_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.846118] (my_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.846982] (my_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.916303] (-) TimerEvent: {}
+[3.938563] (my_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.940553] (my_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.942809] (my_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.983292] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_c__pyext\n'}
+[3.983640] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.012003] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.016634] (-) TimerEvent: {}
+[4.023419] (my_msgs) CommandEnded: {'returncode': 0}
+[4.075377] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'install'}
+[4.086096] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/srijith/Downloads/test_ros2_ws/build/my_msgs'], 'cwd': '/home/srijith/Downloads/test_ros2_ws/build/my_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'srijith'), ('SSH_AGENT_PID', '1649'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/srijith'), ('OLDPWD', '/home/srijith'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21584'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'srijith'), ('JOURNAL_STREAM', '8:34669'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srijith'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/srijith/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/srijith-VirtualBox:@/tmp/.ICE-unix/1686,unix/srijith-VirtualBox:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '49a674ababa6498cb4b3e67d641743c5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:adc4e395-9291-4795-aca0-ace33fb68cf4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srijith/Downloads/test_ros2_ws/build/my_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.096350] (my_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.096641] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/ament_index/resource_index/rosidl_interfaces/my_msgs\n'}
+[4.096811] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.097092] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.097198] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/srijith_custom_string.h\n'}
+[4.097298] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.097476] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__functions.c\n'}
+[4.097983] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__type_support.h\n'}
+[4.098109] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__struct.h\n'}
+[4.098245] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__functions.h\n'}
+[4.098329] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.098413] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/library_path.sh\n'}
+[4.098492] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/library_path.dsv\n'}
+[4.098629] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so\n'}
+[4.098697] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so" to ""\n'}
+[4.098781] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.098988] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.099161] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.099268] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.099335] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__rosidl_typesupport_fastrtps_c.h\n'}
+[4.099405] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.099536] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.099659] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.099738] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.099824] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.099964] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.100035] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/dds_fastrtps\n'}
+[4.100107] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.100182] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.100480] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.100593] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.100711] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.100904] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.101032] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.101186] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__type_support.c\n'}
+[4.101268] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__rosidl_typesupport_introspection_c.h\n'}
+[4.101348] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.101502] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.101875] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so\n'}
+[4.102331] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.102585] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.102687] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.102784] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/srijith_custom_string.hpp\n'}
+[4.102926] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.103005] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__builder.hpp\n'}
+[4.103098] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__traits.hpp\n'}
+[4.103193] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__struct.hpp\n'}
+[4.103283] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs\n'}
+[4.103376] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg\n'}
+[4.103493] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail\n'}
+[4.103571] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.103661] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/include/my_msgs/msg/detail/srijith_custom_string__type_support.cpp\n'}
+[4.103750] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.103898] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.103987] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so\n'}
+[4.104079] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.104227] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/pythonpath.sh\n'}
+[4.104305] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/pythonpath.dsv\n'}
+[4.104443] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py\n'}
+[4.118064] (-) TimerEvent: {}
+[4.134383] (my_msgs) StdoutLine: {'line': b"Compiling '/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py'...\n"}
+[4.137316] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg\n'}
+[4.138439] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/__init__.py\n'}
+[4.139170] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_srijith_custom_string_s.c\n'}
+[4.139345] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_srijith_custom_string.py\n'}
+[4.139449] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.139783] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.140047] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.140912] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.141160] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.141653] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.141857] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__python.so\n'}
+[4.142291] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/srijith/Downloads/test_ros2_ws/install/my_msgs/lib/libmy_msgs__python.so" to ""\n'}
+[4.142624] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/msg/SrijithCustomString.idl\n'}
+[4.142790] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/msg/SrijithCustomString.msg\n'}
+[4.142864] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/my_mapping_rules.yaml\n'}
+[4.143060] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/ament_index/resource_index/package_run_dependencies/my_msgs\n'}
+[4.143243] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/ament_index/resource_index/parent_prefix_path/my_msgs\n'}
+[4.143380] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/ament_prefix_path.sh\n'}
+[4.143471] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/ament_prefix_path.dsv\n'}
+[4.143661] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/path.sh\n'}
+[4.143894] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/environment/path.dsv\n'}
+[4.144116] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/local_setup.bash\n'}
+[4.144222] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/local_setup.sh\n'}
+[4.144463] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/local_setup.zsh\n'}
+[4.144825] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/local_setup.dsv\n'}
+[4.144948] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/package.dsv\n'}
+[4.145046] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/ament_index/resource_index/packages/my_msgs\n'}
+[4.145225] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport.cmake\n'}
+[4.145529] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.146036] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.146184] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.146327] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.146499] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.146696] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.146968] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.147198] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.147346] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.147450] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.147619] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.147776] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.147970] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.148115] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.148238] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.148366] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.148507] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.148607] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgsConfig.cmake\n'}
+[4.148759] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/cmake/my_msgsConfig-version.cmake\n'}
+[4.148917] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/srijith/Downloads/test_ros2_ws/install/my_msgs/share/my_msgs/package.xml\n'}
+[4.151070] (my_msgs) CommandEnded: {'returncode': 0}
+[4.220161] (-) TimerEvent: {}
+[4.232091] (my_msgs) JobEnded: {'identifier': 'my_msgs', 'rc': 0}
+[4.233528] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+my_msgs
+-DCATKIN_DEVEL_PREFIX=/home/srijith/Downloads/test_ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/srijith/Downloads/test_ros1_ws/install -G Unix Makefiles
